@@ -1,0 +1,17 @@
+.App {
+  margin-top: 30px;
+  text-align: center;
+}
+
+img {
+  margin-top: 50px;
+ height: 60vh;
+  background-position: center;
+}
+
+ .carousel {
+  width: 60vw;
+  margin: 50px;
+  margin-left: 15vw;
+  position: center;
+ }
