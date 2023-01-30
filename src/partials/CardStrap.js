@@ -2,8 +2,7 @@ import {Card, CardBody, CardText, CardSubtitle, Button, CardImg, CardTitle }
 from 'reactstrap'
 
 function CardStrap(props){
-    console.log(`--------`)
-    console.log(`props`)
+   
 return(
         <Card>
 
