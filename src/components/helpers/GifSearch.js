@@ -6,8 +6,10 @@ function GifSearch() {
     const apiKey ='DBgWoyaQKQmprgPSAJQ3C24kntcA2Wpe';
     const [input, setInput] = useState('');
     const [gifs, setGifs] = useState([]);
+
     const search = async(event) => {
         event.preventDefault();
+        
         const res = await axios.get(`https://api.giphy.com/v1/gifs/search?q=${input}&api_key=${apiKey}&rating=g&limit=10`);
         setGifs(res.data.data);
     }

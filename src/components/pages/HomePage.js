@@ -4,8 +4,7 @@ import {CardGroup} from 'reactstrap';
 import ToDo from '../helpers/ToDo';
 import axios from 'axios';
 import {useEffect, useState} from'react';
-
-
+import ToDoClass from '../helpers/ToDoClass';
 
 
 function HomePage(){
@@ -59,7 +58,12 @@ const savePage = {
                 </div>
         
                  <div className='row'>
+                 <div className ='col-md-6'>
                     <ToDo/>
+                   </div>
+                   <div className ='col-md-6'>
+                    <ToDoClass/>
+                   </div>
                  </div>
             </div>
         </div>

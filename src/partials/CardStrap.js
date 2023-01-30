@@ -14,7 +14,7 @@ return(
             />
 <CardBody>
     <CardTitle tag="h5">{props.cardobject.title}</CardTitle>
-    <cardSubtitle>Giphy Alt Text</cardSubtitle>
+    <CardSubtitle>Giphy Alt Text</CardSubtitle>
     <CardText>{props.cardobject.description}</CardText>
     <Button> {props.cardobject.buttonText ? props.cardobject.buttonText : 'View Page' } </Button>
 </CardBody>
