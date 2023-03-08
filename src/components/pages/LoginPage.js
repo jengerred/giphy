@@ -22,7 +22,7 @@ function LoginPage(){
             <form onSubmit={login}>
                 <input placeholder='username' value={username} onChange={(e) => setUsername(e.target.value)}></input>
                 <input placeholder='password' type='password' value={password} onChange={(e) => setPassword(e.target.value)}></input>
-                <button className='btn btn-primary'>Log In</button>
+                <button className='btn btn-primary'></button>
             </form>
         </div>
     )
