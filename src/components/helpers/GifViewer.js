@@ -8,7 +8,7 @@ const GifViewer = ({gifs, buttonAction, buttonText}) => (
                     : gif.url
                 } alt={gif.title} />
                     <button onClick={() => buttonAction(
-                        buttonText === 'Save Gifs' 
+                        buttonText === 'Save Gif' 
                         ? gif.images.fixed_width.url
                         : gif.id
                     )}>{buttonText}</button>

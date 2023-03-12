@@ -6,7 +6,7 @@ import GifViewer from "./GifViewer";
 import axios from 'axios'
 
 function GifSearch() {
-    const apiKey ='DBgWoyaQKQmprgPSAJQ3C24kntcA2Wpe';
+    const apiKey = '6HdufP6nLgDzMy9VoZFe9OdpCXZlAu7i';
     // capture the user input from the search form
     const [input, setInput] = useState('');
     // handle the data that comes back from our giphy api
@@ -46,7 +46,7 @@ function GifSearch() {
 
     // we will want to be able to save this data to a db, but for now localStorage
     const save = (gif_url) => {
-
+        console.log(gif_url)
     }
 
 
